@@ -1,3 +1,11 @@
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
 on_i = 1
+
+[[plugins]]
+repo = 'myhere/vim-nodejs-complete'
+on_ft = 'javascript'
+
+[[plugins]]
+repo = 'mattn/jscomplete-vim'
+on_ft = 'javascript'

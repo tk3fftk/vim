@@ -13,6 +13,8 @@ set shiftwidth=4
 set number
 set showmatch
 set smarttab
+set hlsearch
+set backspace=indent,eol,start
 syntax on
 set nobackup
 autocmd FileType text setlocal textwidth=0

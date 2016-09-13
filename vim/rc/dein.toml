@@ -2,6 +2,9 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
+repo = 'tomasr/molokai'
+
+[[plugins]]
 repo = 'Shougo/vimproc.vim'
 hook_post_update = '''
     if executable('gmake')
@@ -12,5 +15,3 @@ hook_post_update = '''
     let g:dein#plugin.build = cmd
 '''
 
-[[plugins]]
-repo = 'tomasr/molokai'

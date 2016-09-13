@@ -1,24 +1,3 @@
-set nowrap
-set noswapfile
-set ruler
-set cmdheight=2
-set wildmenu
-set smartcase
-set list
-set tabstop=4
-set autoindent
-set expandtab
-set listchars=eol:<
-set shiftwidth=4
-set number
-set showmatch
-set smarttab
-set hlsearch
-set backspace=indent,eol,start
-syntax on
-set nobackup
-autocmd FileType text setlocal textwidth=0
-
 "dein
 " プラグインが実際にインストールされるディレクトリ
 let s:dein_dir = expand('~/.vim/dein')
@@ -58,4 +37,25 @@ if dein#check_install()
     call dein#install()
 endif
 
+set nowrap
+set noswapfile
+set ruler
+set cmdheight=2
+set wildmenu
+set smartcase
+set list
+set tabstop=4
+set autoindent
+set expandtab
+set listchars=eol:<
+set shiftwidth=4
+set number
+set showmatch
+set smarttab
+set hlsearch
+set backspace=indent,eol,start
+set nobackup
+autocmd FileType text setlocal textwidth=0
+syntax on
+call dein#source('molokai')
 colorscheme molokai

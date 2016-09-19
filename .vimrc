@@ -56,6 +56,7 @@ set hlsearch
 set backspace=indent,eol,start
 set nobackup
 autocmd FileType text setlocal textwidth=0
+filetype plugin on
 syntax on
 call dein#source('molokai')
 colorscheme molokai

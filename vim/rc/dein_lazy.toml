@@ -9,3 +9,26 @@ on_ft = 'javascript'
 [[plugins]]
 repo = 'mattn/jscomplete-vim'
 on_ft = 'javascript'
+hook_post_source = ':setl omnifunc=jscomplete#CompleteJS'
+
+[[plugins]]
+repo = 'pangloss/vim-javascript'
+on_ft = 'javascript'
+
+[[plugins]]
+repo = 'fatih/vim-go'
+on_ft = 'go'
+hook_add = '''
+    set noexpandtab
+'''
+
+[[plugins]]
+repo = 'godlygeek/tabular'
+on_ft = ['markdown', 'mkd']
+
+[[plugins]]
+repo = 'plasticboy/vim-markdown'
+on_ft = ['markdown', 'mkd']
+hook_add = '''
+    set nofoldenable
+'''

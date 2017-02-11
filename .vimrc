@@ -60,3 +60,5 @@ filetype plugin on
 syntax on
 call dein#source('molokai')
 colorscheme molokai
+
+set clipboard=unnamed,autoselect
